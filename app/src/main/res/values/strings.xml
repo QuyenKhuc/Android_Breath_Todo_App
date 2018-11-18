@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ZenMeditation</string>
+    <string name="task_name">Task Name</string>
+    <string name="task_time">Task time</string>
+    <string name="enter_task">Enter task</string>
+    <string name="enter_time">Enter time</string>
+
+    <string name="isFirstStop">com.example.admin.assignment1.isFirstStop</string>
+
+    <string name="date">com.example.admin.assignment1.date</string>
+    <string name="week">com.example.admin.assignment1.week</string>
+    <string name="month">com.example.admin.assignment1.month</string>
+    <string name="year">com.example.admin.assignment1.year</string>
+    <string name="totalDaily">com.example.admin.assignment1.totalDaily</string>
+    <string name="totalWeekly">com.example.admin.assignment1.totalWeekly</string>
+    <string name="totalMonthly">com.example.admin.assignment1.totalMonthly</string>
+
+    <string name="totalDailyDisplay">com.example.admin.assignment1.totalDailyDisplay</string>
+    <string name="totalWeeklyDisplay">com.example.admin.assignment1.totalWeeklyDisplay</string>
+    <string name="totalMonthlyDisplay">com.example.admin.assignment1.totalMonthlyDisplay</string>
+
+</resources>

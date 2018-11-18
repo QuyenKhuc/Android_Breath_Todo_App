@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/breath_practice_bg"
+    tools:context=".BreathApp.BreathPracticeActivity">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/breath_motion"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/breath_motion"
+        />
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/breath_motion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="130dp"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/start_breath"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:onClick="startMotionClicked"
+        android:text="Start" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="130dp"
+        android:layout_height="52dp"
+        android:layout_below="@+id/start"
+        android:layout_alignStart="@+id/start"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginTop="-145dp"
+        android:background="@drawable/stop_breath"
+        android:onClick="stopMotionClicked"
+        android:text="Stop" />
+
+</RelativeLayout>

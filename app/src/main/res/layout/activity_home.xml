@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/zen_logo" />
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:alpha="0.5"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Zen Meditation" />
+
+    <Button
+        android:id="@+id/breath_button"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="190dp"
+        android:background="@drawable/breath_button"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:onClick="breathButtonClicked"
+        android:textSize="18dp"
+        android:text="Breath" />
+
+    <Button
+        android:id="@+id/todo_button"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/todo_button"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:onClick="todoButtonClicked"
+        android:textSize="18dp"
+        android:text="Todo" />
+</LinearLayout>

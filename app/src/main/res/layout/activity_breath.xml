@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/breath_zen_bg"
+    android:orientation="vertical"
+    tools:context=".BreathApp.BreathActivity">
+
+    <Button
+        android:id="@+id/practice_button"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="220dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/begin_breath"
+        android:text="Practice"
+        android:textColor="#ffffff"
+        android:onClick="breathPracticeClicked"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Practice Time"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="18dp"
+        android:alpha="0.7"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_marginLeft="50dp"
+            android:text="Daily"
+            android:alpha="0.8"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_marginLeft="140dp"
+            android:id="@+id/daily_time_value"
+            android:text="30s"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="Weekly"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="20dp"
+            android:alpha="0.8"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:id="@+id/weekly_time_value"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="120dp"
+            android:textSize="20dp"
+            android:text="30s"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="Monthly"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="20dp"
+            android:alpha="0.8"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:id="@+id/monthly_time_value"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="110dp"
+            android:textSize="20dp"
+            android:text="30s"
+            />
+    </LinearLayout>
+
+</LinearLayout>

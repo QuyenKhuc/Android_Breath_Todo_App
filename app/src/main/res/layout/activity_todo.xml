@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/todo_zen_bg"
+    android:orientation="vertical"
+    tools:context=".TodoApp.TodoActivity">
+
+
+    <Button
+        android:id="@+id/addTask"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="250dp"
+        android:layout_gravity="center_horizontal"
+        android:text="+"
+        android:background="@drawable/rounded_add_button"
+        android:textColor="#ffffff"
+        android:alpha="0.3"
+        android:textSize="40dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/task_list"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+</LinearLayout>
